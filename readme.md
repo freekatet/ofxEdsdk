@@ -12,7 +12,7 @@ ofxEdsdk was developed with support from YCAM http://www.ycam.jp/
 3. Clone this repo, or download this repo as a zip file, unzip, and place contents in your addons folder. If downloading, edit the folder name so that it only says "ofxEdsdk".
 4. Open the Canon EDSDK .dmg image.
 5. Copy the `EDSDK/Header/EDSK*.h` files into the directory `openFrameworks/addons/ofxEdsdk/libs/include/`
-6. Copy the `EDSDK/Framework/*.framework` files into the directory `openFrameworks/addons/ofxEdsdk/libs/lib/`
+6. Copy the `EDSDK/Framework/*.framework` files into the directory `openFrameworks/addons/ofxEdsdk/libs/EDSDK/lib/`
 6. Open the OF Project Generator application and build a new app, including the ofxEdsdk addon.
 7. In the new project, go to the project Build Settings and add `../../../addons/ofxEdsdk/libs/EDSDK/lib` to `Framework Search Paths`.
 
